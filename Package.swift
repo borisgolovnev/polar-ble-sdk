@@ -13,6 +13,7 @@ let package = Package(
     dependencies: [
         .package(name: "RxSwift", url: "https://github.com/ReactiveX/RxSwift.git", .exact("6.5.0")),
         .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf.git", from: "1.6.0"),
+        .package(name: "Zip", url: "https://github.com/marmelroy/Zip.git", .exact("2.1.2")),
     ],
     targets: [
         .target(
